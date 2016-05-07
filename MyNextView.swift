@@ -27,6 +27,7 @@ class MyNextView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        // if let movie = movieE
+        print("HERR");
         guard let movie = movieE else
         {
             imagev.image = nil
